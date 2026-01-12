@@ -1,0 +1,44 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Go build/cache
+*.out
+*.coverprofile
+*.prof
+profile.cov
+profile.out
+coverage.txt
+coverage/**
+/dist/
+/build/
+/bin/
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+/tmp/
+
+# Env & secrets
+.env
+.env.*
+.envrc
+*.key
+*.pem
+
+# Editor/OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Generated data
+/data/*.csv
+/data/*.xlsx
